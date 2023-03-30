@@ -8,7 +8,9 @@
     "build": "tsc",
     "start": "tsc && node dist/index.js --file ./test.json -p 3001"
   },
-  "bin": "dist/index.js",
+  "bin": {
+    "mock-server-node": "dist/index.js"
+  },
   "keywords": [],
   "author": "lijiuyi",
   "license": "ISC",
