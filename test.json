@@ -1,0 +1,22 @@
+{
+  "/": {
+    "resBody": {
+      "code": 200,
+      "success": true,
+      "data": {
+        "data": "@date()",
+        "name": "@name()"
+      }
+    }
+  },
+  "/login": {
+    "resBody": {
+      "code": 200,
+      "success": true,
+      "data": {
+        "name": "@name()",
+        "email": "lijiuyi1995@outlook.com"
+      }
+    }
+  }
+}
