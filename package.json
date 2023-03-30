@@ -1,5 +1,5 @@
 {
-  "name": "mock-man-js",
+  "name": "@zhao-huo-long/mock-man",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "start": "tsc && node dist/index.js --file ./test.json -p 3001"
   },
   "bin": {
-    "mock-server-node": "dist/index.js"
+    "mock-man": "dist/index.js"
   },
   "keywords": [],
   "author": "@zhao-huo-long",
