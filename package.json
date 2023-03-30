@@ -1,5 +1,5 @@
 {
-  "name": "mock-server",
+  "name": "mock-server-node",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
