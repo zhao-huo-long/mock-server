@@ -36,5 +36,5 @@ app.all("*", async function  (request, response){
 const port = args.p || args.port || 5656
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`mock server start:  http://localhost:${port}`)
 })

@@ -8,27 +8,3 @@ export interface RouteConfig {
   errRes?: Record<string, unknown>,
   regex: RegExp
 }
-
-// const mockConfigList:Config[]  = [
-//   {
-//     path: "/",
-//     resBody: {
-//       code: 200,
-//       success: true,
-//       data: "hello, world",
-//     }
-//   },
-//   {
-//     path: "/login",
-//     resBody: {
-//       code: 200,
-//       success: true,
-//       data: {
-//         name: "zhao-huo-long",
-//         email: "lijiuyi1995@outlook.com"
-//       }
-//     }
-//   }
-// ]
-
-// export default mockConfigList
